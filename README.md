@@ -81,4 +81,5 @@ in beans
     private Date birtDate;
 
 validation for the body like post and update only
+
 HATEOAS – HYPER MEDIA AS THE ENGINE OF APPLICATION STATE  - Offer some link to do more things
