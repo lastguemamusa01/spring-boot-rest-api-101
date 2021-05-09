@@ -478,23 +478,24 @@ Name of resources – first think perspective of your customers. Understandable
 
 -	Use correct Response status
 
-o	200 success	
-o	404 – resource not found
-o	400 – bad request (validation error and request format is wrong)
-o	201 – created
-o	401 – unauthorized
-o	500 – sever error
+ -	200 success	
+ -	404 – resource not found
+ -	400 – bad request (validation error and request format is wrong)
+ -	201 – created
+ -	401 – unauthorized
+ -	500 – sever error
+
 -	Ensure no secure information in URI
 
 -	Use plurals 
 
-o	Prefer. /users to /user
-o	Prefer /users/1 to /user/1
+ -	Prefer. /users to /user
+ -	Prefer /users/1 to /user/1
 
 -	Use nouns for resources – account, no delete account, nouns
-o	 Cannot be all nouns, there are exceptions
-	/search
-	PUT / gists/{id}/star
-	DELETE. /gists/{id}/star
+ -	 Cannot be all nouns, there are exceptions
+ -	/search
+ -	PUT / gists/{id}/star
+ -	DELETE. /gists/{id}/star
 
 
